@@ -6,17 +6,26 @@ body{
 	
 }
 
-.classes .has-text-centered{
+.classes{
 
-  margin-top: 3rem;
+  margin-top: 2rem;
+  
 
 }
 
-.columns{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+.card-check{
+color: hsl(228, 39%, 23%);
+margin-bottom: 3rem;
+padding-bottom: 2rem;
+
+}
+
+
+.text-check{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left: 3rem;
+    margin-right: 4rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     /*background-color: wheat;*/
@@ -27,13 +36,11 @@ body{
     text-align: center;
 }
 
-.title.has-text-centered{
-    margin: 1rem;
 
-}
 
 img {
     margin: 30px auto;
+ 
     
 }
 
@@ -45,11 +52,8 @@ img {
 }
 
 
-.button .is-large .is-danger .is-rounded{
-    margin: 10px auto;
-}
 
-.columns.is-capitalized{
+.card-class{
 
 padding: 2rem;
 margin-top: 4em;
@@ -57,15 +61,13 @@ background-color: hsl(12, 88%, 59%);
 }
 
 
-.button .is-large .has-text-grey-lighter .is-rounded{
-   text-decoration: red;
-}
 
 #rounded-button{
     color: hsl(12, 88%, 59%);
     margin-top: 1rem;
-    margin-right: 2rem
-
+    margin-right: 2rem;
+    margin-left:1rem;
+   
    
 }
 
@@ -73,9 +75,10 @@ background-color: hsl(12, 88%, 59%);
     margin-top: 2rem;
     background-color: hsl(12, 88%, 59%);
     margin-bottom: 2rem;
+    
 }
 
-#check
+.check
 {
 margin-bottom: 1rem;
     margin-left: 1rem;
@@ -84,7 +87,7 @@ margin-bottom: 1rem;
     padding-bottom: 1rem;
 }
 
-#cancel-in{
+.cancel-in{
     margin-bottom: 1rem;
    
     margin-left: 1rem;
@@ -92,7 +95,7 @@ margin-bottom: 1rem;
     padding: .25rem;
 }
 
-#workflow{
+.workflow{
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1rem;
@@ -103,15 +106,14 @@ margin-bottom: 1rem;
     padding-left: 0rem;
 }
 
-#go{
-    margin-top: 2rem;
+.go{
+    margin-top: 2.3rem;
     margin-left: 2rem;
-    
     padding: 1rem;
     
 }
 
-#updates{
+.updates{
 
     margin-top: 2rem;
     margin-left: 1rem;
@@ -125,31 +127,38 @@ margin-bottom: 1rem;
     margin-top: 2rem;
 }
 
-#card-card{
+.card-card{
 
-    transform: translateY(-50%);
+    transform: translateY(-40%);
 }
+
+
 
 .copyright{
     margin-top: 3rem;
+  margin-right: 5rem;
     color: white;
 }
 
-#colors-class{
+.my-card {
     background-color: whitesmoke;
 }
 
 
 .section-class{
 
-margin-top: .9rem;
-margin-left: 2rem;
-margin-right: 2rem;
-
+margin-top: .7rem;
+margin-left: .1rem;
+margin-right: .0rem;
+padding-right: .0rem;
 }
 
-.footer.has-background-black{
+.inter{
 
 padding-bottom: 2rem;
 margin-bottom: 1rem;
+}
+
+.adjust{
+    margin-left: 1.5rem;
 }
