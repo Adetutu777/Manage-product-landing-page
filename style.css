@@ -109,8 +109,13 @@ padding-bottom: 2rem;
 
 }
 
-.title{
+/*.title{
     text-align: center;
+}*/
+
+.card-read{
+	
+ text-align: center;
 }
 
 
